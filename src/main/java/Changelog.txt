@@ -1,0 +1,102 @@
+-- 1.3 --
+* Added Lost Zinc Ore
+* Added Lostfish & Lostfish Block
+    * Sometimes spawned from Lostfish Blocks, identical in texture to cavestone, though not in consistency
+    * Spawns at layers 32 and below, identical to cavestone block
+    * Slightly faster and stronger than Silverfish
+    * Possesses all traits of a Silverfish, except with cavestone blocks rather than regular stone
+* Wanderers will now render with items and armor
+    * Wanderers will now attack Zombies, Skeletons, Spiders, Zombie Pigmen and Witches on sight
+    * Wanderers are completely passive until provoked; once attacked, they gang up on the player, much like Zombie Pigmen
+* Desert Wells now rarely generate on Lost Sand
+* Added Palmwood Logs and Planks
+* One log yields 4 Palmwood Planks
+    * Can be crafted into a workbench
+* Added in Palmwood Leaves
+* Palmwood Trees now generate in Lost Desert
+* Generation mechanics slightly altered to allow faster chunk loading
+* Added Palmwood Sapling, grows into Palmwood Tree
+* Palmwood Leaves drop Palmwood Saplings
+* Added coconuts
+* Palmwood Leaves now have a chance at dropping coconuts
+* Creative Tab icon for Lost Desert changed to Lost Pearl item
+* Texture of Lost Diamond item improved
+* Oases now rarely spawn in the desert
+    * Composed of large lakes and Palmwood trees
+* Wanderer attack / defense mechanics slightly altered
+    * Now have anger levels
+    * Once anger reaches a certain level, they become hostile
+    * When turned into zombies, they keep their name tags
+    * When spawning houses, they spawn beside them, rather than occupying the same space and suffocating
+    * Added a few more "sayings" to their speech randomizers
+* Regular cactus and dead bush re-added to world gen, should work on servers now
+* Added an achievement page
+    * Added achievements
+        * The Lost Desert Portal - Spawn the portal to the dimension using the Lost Pearl
+        * A Lovely Bunch Of Coconuts - Harvest a coconut from a Palmwood tree
+        * Found Em - Find a Lost Diamond
+        * Hot Rod - Get a Power Rod
+        * Zinc'd! - Procure a zinc ingot
+        * Lost Pearl - Craft the Lost Pearl
+        * Power Of The Blade - Craft the Lost Sword
+* Added Glowtorch
+    * Crafted using the same shape as a regular torch, but with Lost Glowdust and a Power Rod
+        * Yields four torches at once
+* Small villages will now generate (buggy)
+    * Corresponding Lost Villagers should spawn inside
+* Lost Villagers now have custom name tags depicting their profession when spawned
+    * Profession is now randomized upon spawning
+    
+-- 1.2 --
+* Lost Cactus can now be smelted into Purple Dye
+* Added Lost Redstone Ore
+* Lost Redstone Ore now spawns in caves
+* Treasure chests now spawn beneath Lost Sand at random, usually with crystal formations nearby
+* Portal block now custom block instead of default portal
+* Power Blazes now drop Power Rods
+* Power Blazes now slightly stronger
+* Crafting recipe for Lost Sword now takes a Power Rod instead of a stick
+* Witches spawn chance cut by half
+* Texture of Lost Pearl improved
+* Texture of Lost Diamond Ore block changed, now pink instead of blue
+* Lost Sand now supports regular Cactus and Dead Bushes
+* Regular Cactus and Dead Bushes now spawn randomly
+* Color of dimension sky changed slightly
+* Color of biome water changed slightly
+* Added Lost Villager mob
+* Lost Villagers now spawn in Crystal Towers
+* Added Purple Cavestone Stairs
+* Purple Cavestairs can be crafted with Purple Cavestone
+* Added Purple Cavecobble Stairs
+* Purple Cobblestairs can be crafted with Purple Cavecobble
+* Added Creep Stone Stairs
+* Creep Stone Stairs can be crafted with Creepstone
+* Added Lost Sandstone Stairs
+* Lost Sandstone Stairs can be crafted with Lost Sandstone
+* Added Lost Diamond Ore that drops regular diamonds
+* Spawns in caves at same rate and same levels as Purple Diamonds
+* Added Polished Desert Crystal and Polished Lost Crystal
+* Can be crafted using four blocks of their respective former blocks
+* Added Purple Cave Stone Bricks
+* Can be crafted with four Purple Cave Stone
+* Lost Portal now has custom portal sound
+* Particles no longer spawn from Lost Portal
+* Zombie Pigman should no longer come through desert portals
+* Added Wanderers
+    * Currently just simple A.I.s used to add life to the Lost Desert
+    * Build houses when danger level is high (Under construction, currently buggy)
+    * Moves through houses / doors, similar to villagers' A.I.
+    * Originally intended to have armor and weapons rendered, so far does not seem to work
+    * Converts to Zombie when killed at night
+    * Avoids monsters
+    * Can pick up items
+    * Completely passive
+    * Wanders and observes almost any living entity
+    * Upon right-clicking, Wanderers will "talk" to the Player, leaving randomly generated messages in the chat
+* Added Lost Cavebrick Stairs
+* Lost Cavebrick Stairs can be crafted with Lost Cavebricks
+* Added zinc ore to surface world
+* Zinc ingots drop from zinc ore
+* Zinc ore spawns from layers 8 to 1, 34% chance of spawning
+* Crafting recipe for Lost Pearl changed from glowstone surrounding an ender eye to zinc ingots surrounding an eye of ender
+* 9 zinc ingots make a zinc block
